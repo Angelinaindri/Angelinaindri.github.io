@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.ignielPelangi {
+/* .ignielPelangi {
     background: linear-gradient(45deg, #f22613, #f89406, #26a65b, #5868ec, #f54e80, #f7ca18, #d2527f);
     background-size: 500% 500%;
     -webkit-animation: ignielGradient 12s ease infinite;
@@ -36,9 +36,9 @@ body {
 }
 .header {
   background: #ff000; /* bisa juga menggunakan property 'background-color' */
-  position: relative;
+  /* position: relative;
   display: block
-}
+} */ 
 /* End Body */
 
 /* Start Debug */
@@ -91,7 +91,7 @@ a:active {
 /* Start menu primer */
 .menu-primer ul {
     text-align: center;
-    background-color: #ED96A0;
+    background-color: #9B5907;
     border-radius: 0px;
     box-shadow: 
     0 3px 5px -1px rgba(0,0,0,.2),
@@ -180,7 +180,7 @@ h4 {
 
 /* Start Box */
 .box-heading {
-    background-color:#CEDADC;
+    background-color:#9B5907;
     border: 1px solid #E0E7E5;
     border-radius: 5px 5px 5px 5px;
     margin: 0;
@@ -194,7 +194,7 @@ h4 {
 }
 
 .box-isi {
-    background-color:#EFC7C4;
+    background-color:#F5B95F;
     border: 1px solid #E0E7E5;
     border-top: 0;
     margin: 0;
@@ -337,5 +337,4 @@ input[type="submit"],
     text-align: center;
 }
 /* End Copyright */
-
 
