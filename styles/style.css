@@ -1,34 +1,62 @@
 /* Start Font */
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Abril+Fatface|Rubik|Josefin+Sans|Caveat');
 /* End font */
 
 
 /* Start Body */
 body {
-    background-color: burlywood;
+    background-color: #FFFFFF;
     font-family: 'Source Code Pro', monospace;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.5 em;
     margin: 0;
     padding: 0;
 }
+.ignielPelangi {
+    background: linear-gradient(45deg, #f22613, #f89406, #26a65b, #5868ec, #f54e80, #f7ca18, #d2527f);
+    background-size: 500% 500%;
+    -webkit-animation: ignielGradient 12s ease infinite;
+    -moz-animation: ignielGradient 12s ease infinite;
+    animation: ignielGradient 12s ease infinite;
+}
+@-webkit-keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.header {
+  background: #ff000; /* bisa juga menggunakan property 'background-color' */
+  position: relative;
+  display: block
+}
 /* End Body */
 
 /* Start Debug */
-.bg-blue {
+/* .bg-blue {
     background-color: blue;
 }
 
 .bg-red {
     background-color: red;
-}
+} */
 /* End Debug */
 
 /* Start Container */
 .container {
-    margin: 10px auto;
+    margin: 0px auto;
     overflow: auto;
     width: 90%;
+    background-color: #FEFDFA;
 }
 
 .container-full {
@@ -48,7 +76,7 @@ body {
 /* Start Anchor / Hyperlink */
 a:link,
 a:visited {
-    color: green;
+    color: #221F14;
     text-decoration: none;
 }
 
@@ -62,8 +90,9 @@ a:active {
 
 /* Start menu primer */
 .menu-primer ul {
-    background-color: #333333;
-    border-radius: 4px;
+    text-align: center;
+    background-color: #ED96A0;
+    border-radius: 15px;
     box-shadow: 
     0 3px 5px -1px rgba(0,0,0,.2),
     0 6px 10px 0 rgba(0,0,0,.14),
@@ -79,7 +108,7 @@ a:active {
 
 .menu-primer a {
     color: #ffffff;
-    font-size: 13px;
+    font-size: 17px;
     padding: 10px 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -87,17 +116,33 @@ a:active {
 }
 
 .menu-primer a:hover {
-    background-color: yellow;
+    background-color:#FEF7E7;
     color: #000000;
     text-decoration: none;
 }
 
 .menu-primer .active {
-    background-color: aqua;
-    color: palevioletred;
+    background-color: #F0DFB6;
+    color: #282417;
     text-decoration: none;
 }
 /* End menu Primer */
+
+/* Start Jumbotron */
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* End Jumbotron */
 
 /* Start Main */
 .main-home-one {
@@ -112,15 +157,32 @@ a:active {
 
 .main-home-one .box-isi,
 .main-home-two .box-isi {
-    height: 230px;
+    height: 297px;
 }
+
+
+.main-one {
+    float: left;
+    overflow: auto;
+    width: 70%;
+} 
+
 /* End main */
+
+/* Start Sidebar */
+.sidebar-two {
+    float: right;
+    overflow: auto;
+    width: 29%;
+} 
+
+/* End Sidebar */
 
 /* Start Box */
 .box-heading {
-    background-color: antiquewhite;
-    border: 1px solid pink;
-    border-radius: 1px 1px 0 0;
+    background-color:#CEDADC;
+    border: 1px solid #E0E7E5;
+    border-radius: 5px 5px 5px 5px;
     margin: 0;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -132,12 +194,147 @@ a:active {
 }
 
 .box-isi {
-    background-color: orange;
-    border: 1px solid grey;
+    background-color:#EFC7C4;
+    border: 1px solid #E0E7E5;
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
     text-transform: uppercase;
+    border-radius: 15px
+
+}
+
+.box-isi ul {
+    font-family: 'Rubik', sans-serif;
 
 }
 /* End Box */
+
+/* Start Testimonial */
+.testimonial {
+    border-left: 4px solid #DEDCBA;
+    margin-left: 30px;
+    padding: -8px;
+}
+/* End Testimonial */
+
+/* Start Layanan-table */
+.layanan-table {
+    border: 1px solid #333333;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+
+.layanan-table th {
+    background-color: #FEF7E7;
+}
+
+.layanan-table td {
+    text-align: center;
+}
+/* End Layanan-table */
+
+/* Start Form */
+input [type="text"],
+input [type="emai"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: blue;
+    font-weight: 300;
+}
+
+input[type="submit"],
+.button {
+    background-color: antiquewhite;
+    background-image: linear-gradient(-180deg,#fafbfc 0%,#eff36e 90%);
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    border-radius: 4px;
+    color: #000000 !important;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+/* End Form */
+
+/* Start Kontact form */
+.contact-form div {
+        margin: 20px 0;
+}
+/* End Kontak Form */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: #FFFDFB;
+    border-bottom: 1px solid #645637;
+    border-top: 1px solid #645637;
+    overflow: auto;
+    padding: 10px 0;
+}
+
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.menu-sekunder ul {
+    padding: 0;
+}
+
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder li p {
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+
+.menu-sekunder-one {
+    width: 40%;
+    padding-top: 10px;
+
+}
+
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+    padding-top: 10px;
+
+}
+
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+
+.menu-sekunder p img {
+    vertical-align: middle;
+}
+
+/* End Menu Sekunder */
+
+/* Sart Copyright */
+.copyright p {
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+}
+/* End Copyright */
+
