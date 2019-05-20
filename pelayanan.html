@@ -10,6 +10,24 @@
     <link rel="stylesheet" href="styles/style.css">
     <!-- End Css -->
 
+    <!--Start Css Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- End Css Boostrap -->
+    
+    <!-- Start Style Jumbotron -->
+    <style>
+        body {
+            background: rgb(51, 51, 51);
+        }
+
+        .jumbotron {
+            background: orange;
+        }
+
+    </style>
+    <!-- End Style Jumbotron -->
+
+
     <!-- start Title-->
         <title>Hey coffee shop</title>
     <!-- End Title-->
@@ -54,12 +72,15 @@
             </marquee>
             <br>
         </h1>
-        <h3 class="daftarmenu">Daftar Menu</h3>
     </div>
     <!-- End Jumbotron -->
     
     <!-- Start Pelayanan dan Snip Pelayanan -->
-    <div class="container">
+    <div class="kk">
+        <div class="menu-kopi">
+            <h3>Daftar Menu</h3>
+        </div>
+    <div class="menu-kopi">
         <figure class="snip1362">
             <img src="https://images.unsplash.com/photo-1533000759984-0d977d715f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="sample99" />
             <figcaption>
@@ -131,15 +152,17 @@
             </figcaption>
         <a href="#"></a>
         </figure>
+    </div>
+    </div>
     <!-- End Snip Pelayanan -->
 
     <!-- Start List Harga -->
-        <div class="box-isi">
-        <h3 class="listharga">
-            List Harga
-        </h3>
-    
-        <table align="center" border="1" cellpadding="10" cellspacing="0" >
+    <div class="backgroundlist">
+            <div class="menu-kopi">
+            <h3>List Harga</h3>
+        </div>
+        
+        <table align="center" border="2" cellpadding="10" cellspacing="0" >
             <tr>
                 <th colspan="5">Pesan Disini</th>
             </tr>
@@ -149,7 +172,7 @@
                 <th>Pesan</th>
             </tr>
             <tr>
-                <td>solo Espresso</td>
+                <td>Solo Espresso</td>
                 <td>Rp. 17.000,-</td>
                 <td>
                     <a href="pembayaran.html" title="Beli paket ini" class="button">
@@ -231,8 +254,10 @@
             </tr>
         </table>
     </div>
+</div>
     <!-- End List Harga -->
-    <div class="backgroundlist">
+
+     <div class="backgroundlist">
             <h3 class="daftarmenu">Promo</h3>
                 <ol>
                     <li>
@@ -248,6 +273,7 @@
                     </li>
                 </ol>
             </div>
+        </div>
     </div>
     <!-- End Pelayanan -->
 
