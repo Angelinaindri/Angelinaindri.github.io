@@ -1,55 +1,34 @@
 /* Start Font */
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Abril+Fatface|Rubik|Josefin+Sans|Caveat');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Raleway|Rock+Salt|Knewave|Carter+One|Rubik|Josefin+Sans|Caveat|Overpass|PT+Sans');
 /* End font */
 
+/* Start snip beranda */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+/* End Snip beranda */
+
+/* Start Snip Komentar Testimonial */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+/* End Snip Komentar Testimonial */
+
+/* Start Tentang dan Snip Tentang */
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Fauna+One);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+/* End Tentang dan Snip Tentang */
 
 /* Start Body */
 body {
     background-color: #FFFFFF;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Knewave', cursive;
     font-size: 17px;
     line-height: 1.5 em;
     margin: 0;
     padding: 0;
 }
-/* .ignielPelangi {
-    background: linear-gradient(45deg, #f22613, #f89406, #26a65b, #5868ec, #f54e80, #f7ca18, #d2527f);
-    background-size: 500% 500%;
-    -webkit-animation: ignielGradient 12s ease infinite;
-    -moz-animation: ignielGradient 12s ease infinite;
-    animation: ignielGradient 12s ease infinite;
-}
-@-webkit-keyframes ignielGradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes ignielGradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes ignielGradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-.header {
-  background: #ff000; /* bisa juga menggunakan property 'background-color' */
-  /* position: relative;
-  display: block
-} */ 
-/* End Body */
-
-/* Start Debug */
-/* .bg-blue {
-    background-color: blue;
-}
-
-.bg-red {
-    background-color: red;
-} */
-/* End Debug */
 
 /* Start Container */
 .container {
@@ -70,6 +49,10 @@ body {
 /* Start Logo */
 .logo {
     text-align: center;
+    
+}
+.menu-primer img {
+    width: 198px;
 }
 /* End Logo */
 
@@ -89,14 +72,22 @@ a:active {
 /* End Anchor /Hyperlink */
 
 /* Start menu primer */
+
+.menu-primer {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .menu-primer ul {
+    vertical-align: middle;
     text-align: center;
-    background-color: #9B5907;
-    border-radius: 0px;
-    box-shadow: 
+    /* background-color: #9B5907; */
+    /* border-radius: 0px; */
+    /* box-shadow:
     0 3px 5px -1px rgba(0,0,0,.2),
     0 6px 10px 0 rgba(0,0,0,.14),
-    0 1px 18px 0 rgba(0,0,0,.12);
+    0 1px 18px 0 rgba(0,0,0,.12); */
 }
 
 .menu-primer li {
@@ -130,19 +121,612 @@ a:active {
 
 /* Start Jumbotron */
 h1 {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 40px;
+    font-family: 'Carter One', cursive;
+    font-size: 35px;
 }
 
 h3 {
     font-family: 'Rubik', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
+    text-align: center;
 }
 
 h4 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Carter One', cursive;
+}
+
+.ngeh {
+  font-size: 30px;
+  text-align: center;
+}
+
+.daftarmenu {
+  font-size: 20px;
+ 
+}
+
+.listharga {
+  font-size: 20px;
+}
+
+h3 p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.backgroundlist {
+  background: #F7F1E1;
+  text-align: center;
+
 }
 /* End Jumbotron */
+
+/* Start snip beranda */
+.snip1500 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin-right: 15px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  background-color: #000000;
+  display: inline-block;
+}
+
+.snip1500 *,
+.snip1500 *:before,
+.snip1500 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+}
+
+.snip1500 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+
+.snip1500 figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 5px 10px 10px;
+  opacity: 0;
+  -webkit-transform: rotate(45deg) translate(-50%, -50%);
+  transform: rotate(45deg) translate(-50%, -50%);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.snip1500 figcaption:before,
+.snip1500 figcaption:after {
+  height: 2px;
+  width: 400px;
+  position: absolute;
+  content: '';
+  background-color: #f09d509c;
+}
+
+.snip1500 figcaption:before {
+  top: 0;
+  left: 10px;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.snip1500 figcaption:after {
+  bottom: 0;
+  right: 10px;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.snip1500 figcaption div:before,
+.snip1500 figcaption div:after {
+  width: 2px;
+  height: 300px;
+  position: absolute;
+  content: '';
+  background-color: #F0DFB6;
+}
+
+.snip1500 figcaption div:before {
+  top: 10px;
+  right: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.snip1500 figcaption div:after {
+  bottom: 10px;
+  left: 0;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.snip1500 h2,
+.snip1500 h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.snip1500 h2 {
+  font-weight: 400;
+}
+
+.snip1500 h4 {
+  display: block;
+  font-weight: 700;
+  background-color: #F0DFB6;
+  padding: 5px 10px;
+  color: #000000;
+}
+
+.snip1500 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.snip1500:hover img,
+.snip1500.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.snip1500:hover figcaption,
+.snip1500.hover figcaption {
+  opacity: 1;
+}
+
+.snip1500:hover figcaption:before,
+.snip1500.hover figcaption:before,
+.snip1500:hover figcaption:after,
+.snip1500.hover figcaption:after,
+.snip1500:hover figcaption div:before,
+.snip1500.hover figcaption div:before,
+.snip1500:hover figcaption div:after,
+.snip1500.hover figcaption div:after {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.snip1500:hover figcaption:before,
+.snip1500.hover figcaption:before,
+.snip1500:hover figcaption:after,
+.snip1500.hover figcaption:after {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+/* End Snip Beranda */
+
+/* Start Testimonial */
+.testimonial {
+  border-left: 4px solid #DEDCBA;
+  margin-left: 30px;
+  padding: -8px;
+}
+/* End Testimonial */
+
+/* * Start Box */
+.box-heading {
+    /* border: 1px solid #E0E7E5; */
+    /* border-radius: 5px 5px 5px 5px; */
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.box-heading h4 {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+.box-isi {
+    background-color:#F7F1E1;
+    border: 1px solid #E0E7E5;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    /* border-radius: 15px */
+}
+
+.box-isi tr {
+    font-family: 'Rubik', sans-serif;
+
+}
+/* End Box */
+
+/* Start Snip Komentar Testimonial */
+.snip1559 {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #F0DFB6;
+  border-radius: 133px;
+  color: #000000;
+  text-align: center;
+  font-size: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.snip1559 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.snip1559 .profile-image {
+  padding: 15% 4% 7p;
+}
+
+.snip1559 .profile-image img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  border-radius: 50%;
+  max-width: 40%;
+}
+
+.snip1559 figcaption {
+  padding: 5% 10% 15%;
+}
+
+.snip1559 h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+}
+
+.snip1559 h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #659157;
+  letter-spacing: 1px;
+}
+
+.snip1559 .icons i {
+  color: #999;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1.5em;
+}
+
+.snip1559 .icons i:hover {
+  color: #555;
+}
+
+.snip1559 .icons i a {
+  text-decoration: none;
+}
+
+/* End Snip Komentar Testimonial */
+
+/* Start tentang dan Snip Tentang */
+figure.snip1453 {
+  font-family: 'Fauna One', Arial, sans-serif;
+  position: relative;
+  margin: 10px 20px 10px 20px;
+  min-width: 230px;
+  max-width: 295px;
+  min-height: 215px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #1a1a1a;
+  font-size: 16px;
+}
+figure.snip1453 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1453 img {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  opacity: 1;
+  width: 100%;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+figure.snip1453 figcaption {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 20px 20px 20px 0;
+}
+figure.snip1453 h2,
+figure.snip1453 p {
+  margin: 0;
+  width: 100%;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  opacity: 0;
+}
+figure.snip1453 h2 {
+  font-family: 'Playfair Display', Arial, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+figure.snip1453 p {
+  font-size: 0.8em;
+}
+figure.snip1453 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+figure.snip1453:hover img,
+figure.snip1453.hover img {
+  width: 55%;
+  left: -10%;
+}
+figure.snip1453:hover figcaption h2,
+figure.snip1453.hover figcaption h2,
+figure.snip1453:hover figcaption p,
+figure.snip1453.hover figcaption p {
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+figure.snip0056 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 380px;
+  max-width: 480px;
+  width: 100%;
+  background: #ffffff;
+  color: #000000;
+}
+figure.snip0056 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip0056 > img {
+  width: 50%;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  -webkit-transform: scale(1.6);
+  transform: scale(1.6);
+  position: relative;
+  float: right;
+  right: -15%;
+  z-index: 1;
+}
+figure.snip0056 figcaption {
+  padding: 20px 30px 20px 20px;
+  position: absolute;
+  left: 0;
+  width: 50%;
+}
+figure.snip0056 figcaption h2,
+figure.snip0056 figcaption p {
+  margin: 0;
+  text-align: left;
+  padding: 10px 0;
+  width: 100%;
+}
+figure.snip0056 figcaption h2 {
+  font-size: 1.3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+figure.snip0056 figcaption h2 span {
+  font-weight: 800;
+}
+figure.snip0056 figcaption p {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+figure.snip0056 figcaption .icons {
+  width: 100%;
+  text-align: left;
+}
+figure.snip0056 figcaption .icons i {
+  font-size: 26px;
+  padding: 5px;
+  top: 50%;
+  color: #000000;
+}
+figure.snip0056 figcaption a {
+  opacity: 0.3;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip0056 figcaption a:hover {
+  opacity: 0.8;
+}
+figure.snip0056 .position {
+  width: 100%;
+  text-align: left;
+  padding: 15px 30px;
+  font-size: 0.9em;
+  opacity: 1;
+  font-style: italic;
+  color: #ffffff;
+  background: #000000;
+  clear: both;
+}
+figure.snip0056.blue .position {
+  background: #20638f;
+}
+figure.snip0056.red .position {
+  background: #962d22;
+}
+figure.snip0056.yellow .position {
+  background: #bf6516;
+}
+figure.snip0056:hover > img,
+figure.snip0056.hover > img {
+  right: -12%;
+}
+
+/* End Tentang dan snip Tentang */
+
+/* Start Pelayanan dan Snip Pelayanan */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.snip1362 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 44px;
+  max-width: 315px;
+  width: 100%;
+  color: #262626;
+  font-size: 16px;
+  background-color: #e6e6e6;
+  transform: translateZ(0);
+  float: right;
+}
+.snip1362 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1362 img {
+  max-width: 100%;
+  vertical-align: top;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+.snip1362 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.snip1362 h3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-weight: 300;
+  font-size: 1.4em;
+  padding: 0 40px 0 0;
+  margin: 0;
+  line-height: 40px;
+}
+.snip1362 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1362:hover img,
+.snip1362.hover img {
+  -webkit-transform: translate(-40px, -40px);
+  transform: translate(-40px, -40px);
+}
+/* End Pelayanan dan Snip Pelayanan */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+  background-color: #F9F9FA;
+  border-bottom: 1px solid #645637;
+  border-top: 1px solid #645637;
+  overflow: auto;
+  padding: 10px 0;
+}
+
+.menu-sekunder h4 {
+  font-size: 14px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.menu-sekunder ul {
+  padding: 0;
+}
+
+.menu-sekunder li {
+  list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder li p {
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+  float: left;
+}
+
+.menu-sekunder-one {
+  width: 40%;
+  padding-top: 10px;
+
+}
+
+.menu-sekunder-two,
+.menu-sekunder-three {
+  width: 30%;
+  padding-top: 10px;
+
+}
+
+.menu-sekunder li img {
+  vertical-align: middle;
+}
+
+.menu-sekunder p img {
+  vertical-align: middle;
+}
+
+/* End Menu Sekunder */
+
+
+/* Start Copyright */
+.copyright p {
+  font-size: 25px;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+}
+/* End Copyright */
+
 
 /* Start Main */
 .main-home-one {
@@ -178,46 +762,6 @@ h4 {
 
 /* End Sidebar */
 
-/* Start Box */
-.box-heading {
-    background-color:#9B5907;
-    border: 1px solid #E0E7E5;
-    border-radius: 5px 5px 5px 5px;
-    margin: 0;
-    padding: 10px 20px;
-    text-transform: uppercase;
-}
-
-.box-heading h4 {
-    font-size: 14px;
-    margin: 0;
-}
-
-.box-isi {
-    background-color:#F5B95F;
-    border: 1px solid #E0E7E5;
-    border-top: 0;
-    margin: 0;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border-radius: 15px
-
-}
-
-.box-isi ul {
-    font-family: 'Rubik', sans-serif;
-
-}
-/* End Box */
-
-/* Start Testimonial */
-.testimonial {
-    border-left: 4px solid #DEDCBA;
-    margin-left: 30px;
-    padding: -8px;
-}
-/* End Testimonial */
-
 /* Start Layanan-table */
 .layanan-table {
     border: 1px solid #333333;
@@ -245,7 +789,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-    color: blue;
+    color: #999;
     font-weight: 300;
 }
 
@@ -270,71 +814,79 @@ input[type="submit"],
 /* Start Kontact form */
 .contact-form div {
         margin: 20px 0;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+
 }
 /* End Kontak Form */
 
-/* Start Menu Sekunder */
-.menu-sekunder {
-    background-color: #FFFDFB;
-    border-bottom: 1px solid #645637;
-    border-top: 1px solid #645637;
-    overflow: auto;
-    padding: 10px 0;
-}
 
-.menu-sekunder h4 {
-    font-size: 14px;
-    margin: 0 auto;
-    text-transform: uppercase;
-}
-
-.menu-sekunder ul {
-    padding: 0;
-}
-
-.menu-sekunder li {
-    list-style: disc;
-}
-
-.menu-sekunder li a,
-.menu-sekunder li p {
-    font-size: 15px;
-}
-
-.menu-sekunder-one,
-.menu-sekunder-two,
-.menu-sekunder-three {
-    float: left;
-}
-
-.menu-sekunder-one {
-    width: 40%;
-    padding-top: 10px;
-
-}
-
-.menu-sekunder-two,
-.menu-sekunder-three {
-    width: 30%;
-    padding-top: 10px;
-
-}
-
-.menu-sekunder li img {
-    vertical-align: middle;
-}
-
-.menu-sekunder p img {
-    vertical-align: middle;
-}
-
-/* End Menu Sekunder */
-
-/* Sart Copyright */
-.copyright p {
-    font-size: 25px;
-    font-family: 'Caveat', cursive;
+.container-img {
     text-align: center;
+    margin: 0px auto;
+    overflow: auto;
+    width: 90%;
+    background-color: #F7F1E1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
 }
-/* End Copyright */
 
+ p { 
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+ }
+
+ .formulir{
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1em;
+ }
+
+.tentang {
+    background: #F7F1E1;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.t-figure {
+    width: 30%;
+    background: #999;
+}
+
+.t-tulisan {
+    width: 50%;
+    background: #F8F8F8;
+}
+
+.dua {
+    background: #F7F1E1;
+}
+
+.auto {
+    width: auto;
+    margin-right: 60px;
+}
+
+.ubah {
+    width: 40%;
+    margin-left: 30px;
+}
+
+.t-tulisan p {
+  text-align: center;
+}
+
+.hai {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.ol {
+  font-family: 'Roboto Mono', monospace;
+
+}
