@@ -40,7 +40,7 @@
 <body>
     <!--Start Menu Primer & Logo-->
     <div class="container menu-primer">
-            <img src="https://raw.githubusercontent.com/Angelinaindri/angelinaindri.github.io/master/images/imageedit_2_8200108882.png" alt="Logo Hey Coffee Shop" >
+        <img src="https://raw.githubusercontent.com/Angelinaindri/angelinaindri.github.io/master/images/output-onlinepngtools.png" alt="Logo Hey Coffee Shop">
         <ul>
             <li>
                 <a href="index.html" title="Beranda">Beranda</a>
@@ -73,7 +73,7 @@
     <div class="container">
         <div class="box-heading">
         </div>
-        <div class="box-isi">
+        <div class="container">
         <!-- Start Alamat -->
             <div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2083878294075!2d106.86595121431036!3d-6.236240262804347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f375d2324321%3A0x16d34b7be5ec5e19!2sPanti+Asuhan+Vincentius+Putri!5e0!3m2!1sid!2sid!4v1540980773725" height="500px" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -81,137 +81,47 @@
          
             <hr>
 
-            <h3 class="daftarmenu">Pemesanan dapat dilakukan dengan mengisi Formulir di bawah ini</h3>
         <!-- End Alamat -->
 
-            <hr>
 
         <!-- Start Formulir -->
-  <form>
-        <h1>Should you have any questions, please do not hesitate to contact me :</h1>
-        
-    <div class="contentform">
-        <div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
+        <!-- Default form contact -->
+<form class="text-center border border-light p-5">
 
+    <p class="h4 mb-4">Contact us</p>
 
-        <div class="leftcontact">
-                  <div class="form-group">
-                    <p>Surname<span>*</span></p>
-                    <span class="icon-case"><i class="fa fa-male"></i></span>
-                        <input type="text" name="nom" id="nom" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné."/>
-                <div class="validation"></div>
-       </div> 
+    <!-- Name -->
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
 
-            <div class="form-group">
-            <p>Name <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-user"></i></span>
-                <input type="text" name="prenom" id="prenom" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>
+    <!-- Email -->
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
 
-            <div class="form-group">
-            <p>E-mail <span>*</span></p>    
-            <span class="icon-case"><i class="fa fa-envelope-o"></i></span>
-                <input type="email" name="email" id="email" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire."/>
-                <div class="validation"></div>
-            </div>  
+    <!-- Subject -->
+    <label>Subject</label>
+    <select class="browser-default custom-select mb-4">
+        <option value="" disabled>Choose option</option>
+        <option value="1" selected>Feedback</option>
+        <option value="2">Report a bug</option>
+        <option value="3">Feature request</option>
+        <option value="4">Feature request</option>
+    </select>
 
-            <div class="form-group">
-            <p>Company <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-home"></i></span>
-                <input type="text" name="society" id="society" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Société' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>
-
-            <div class="form-group">
-            <p>Company Address <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-location-arrow"></i></span>
-                <input type="text" name="adresse" id="adresse" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Adresse' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>
-
-            <div class="form-group">
-            <p>Postcode <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-map-marker"></i></span>
-                <input type="text" name="postal" id="postal" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Code postal' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>  
-
-
-
+    <!-- Message -->
+    <div class="form-group">
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
     </div>
 
-    <div class="rightcontact">  
-
-            <div class="form-group">
-            <p>City <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-building-o"></i></span>
-                <input type="text" name="ville" id="ville" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Ville' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>  
-
-            <div class="form-group">
-            <p>Phone number <span>*</span></p>  
-            <span class="icon-case"><i class="fa fa-phone"></i></span>
-                <input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres"/>
-                <div class="validation"></div>
-            </div>
-
-            <div class="form-group">
-            <p>Function <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-info"></i></span>
-                <input type="text" name="fonction" id="fonction" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Fonction' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>
-
-            <div class="form-group">
-            <p>Subject <span>*</span></p>   
-            <span class="icon-case"><i class="fa fa-comment-o"></i></span>
-                <input type="text" name="sujet" id="sujet" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Sujet' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>
-        
-            <div class="form-group">
-            <p>Message <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-comments-o"></i></span>
-                <textarea name="message" rows="14" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Message' doit être renseigné."></textarea>
-                <div class="validation"></div>
-            </div>  
+    <!-- Copy -->
+    <div class="custom-control custom-checkbox mb-4">
+        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
     </div>
-    </div>
-<button type="submit" class="bouton-contact">Send</button>
-    
-</form> 
-            <!-- <h3 class="formulir">Formulir Hey Coffee Shop</h3>
-            <form action="" class="contact-form">
-                <div>
-                    <label for="nama">Nama Lengkap</label>
-                    <br>
-                    <input type="text" placeholder="Nama Lengkap" size="50" name="nama" id="nama">
-                </div>
-                
-                <div>
-                    <label for="kota">Kota</label>
-                    <br>
-                    <input type="text" placeholder="Kota" size="50" name="kota" id="kota">
-                </div>
-                
-                <div>
-                    <label for="email">Email</label>
-                    <br>
-                    <input type="text" placeholder="Email" size="50" name="email" id="email">
-                </div>
-                
-                <div>
-                    <label for="pesan">Pesan</label>
-                    <br>
-                    <textarea cols="60" rows="10" placeholder="Tulis pesan disini"></textarea>
-                </div>
 
-                <div>
-                    <input type="submit" name="Kirim" id="Kirim" size="50" value="Kirim">
-                    </form>
-            </div> -->
+    <!-- Send button -->
+    <button class="btn btn-info btn-block" type="submit">Send</button>
+
+</form>
+<!-- Default form contact -->
         <!-- End Formulir -->
         </div>
     </div>
