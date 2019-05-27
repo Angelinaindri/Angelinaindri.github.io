@@ -3,14 +3,15 @@
 /* End font */
 
 /* Start snip beranda */
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-/* End Snip beranda */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);/* End Snip beranda */
 
 /* Start Snip Komentar Testimonial */
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+/* @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css); */
 /* End Snip Komentar Testimonial */
 
 /* Start Tentang dan Snip Tentang */
@@ -53,7 +54,7 @@ body {
     
 }
 .menu-primer img {
-    width: 198px;
+    width: 290px;
 }
 /* End Logo */
 
@@ -123,7 +124,7 @@ a:active {
 /* Start Jumbotron */
 
 .jumbotron {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .jumbotron h1 {
     font-family: 'Carter One', cursive;
@@ -170,17 +171,14 @@ h3 p{
 /* End Jumbotron */
 
 /* Start snip beranda */
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+
 figure.snip1182 {
   display: inline-block;
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
   overflow: hidden;
   margin: 10px;
-  width: 27%;
-  /* min-width: 220px;
-  max-width: 310px; */
+  width: 25%;
   background: #000000;
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -294,7 +292,6 @@ figure.snip1182.hover i {
 
 /* Start Testimonial */
 .testimonial {
-  border-left: 4px solid #DEDCBA;
   margin-left: 30px;
   padding: -8px;
 }
@@ -334,74 +331,79 @@ figure.snip1182.hover i {
 /* End Box */
 
 /* Start Snip Komentar Testimonial */
-.snip1559 {
-  font-family: 'Lato', Arial, sans-serif;
+figure.snip1192 {
+  font-family: 'Raleway', Arial, sans-serif;
   position: relative;
-  display: inline-block;
   overflow: hidden;
   margin: 10px;
-  min-width: 250px;
+  min-width: 220px;
+  display: inline-block;
   max-width: 310px;
   width: 100%;
-  background-color: #F0DFB6;
-  border-radius: 133px;
-  color: #000000;
-  text-align: center;
-  font-size: 15px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
 }
-
-.snip1559 * {
+figure.snip1192 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-.snip1559 .profile-image {
-  padding: 15% 4% 7p;
-}
-
-.snip1559 .profile-image img {
+figure.snip1192 img {
   max-width: 100%;
-  vertical-align: top;
-  position: relative;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
-  max-width: 40%;
+  margin-bottom: 15px;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
 }
-
-.snip1559 figcaption {
-  padding: 5% 10% 15%;
+figure.snip1192 blockquote {
+  margin: 0;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 30px 50px 65px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 -50px;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
-
-.snip1559 h3 {
-  font-family: 'Oswald';
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  margin: 3px 0;
+figure.snip1192 blockquote:before,
+figure.snip1192 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
 }
-
-.snip1559 h5 {
-  font-weight: 400;
+figure.snip1192 blockquote:before {
+  top: 35px;
+  left: 20px;
+}
+figure.snip1192 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 35px;
+}
+figure.snip1192 .author {
   margin: 0;
   text-transform: uppercase;
-  color: #659157;
-  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
 }
-
-.snip1559 .icons i {
-  color: #999;
-  display: inline-block;
-  margin-right: 5px;
-  font-size: 1.5em;
+figure.snip1192 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
 }
-
-.snip1559 .icons i:hover {
-  color: #555;
-}
-
-.snip1559 .icons i a {
-  text-decoration: none;
+figure.snip1192 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  display: block;
 }
 
 /* End Snip Komentar Testimonial */
@@ -659,7 +661,7 @@ figure.snip0056.hover > img {
 
 /* Start Menu Sekunder */
 .menu-sekunder {
-  background-color: #F9F9FA;
+  background-color: #F0DFB6;
   border-bottom: 1px solid #645637;
   border-top: 20px solid rgb(51, 51, 51);
   overflow: auto;
@@ -784,35 +786,7 @@ table {
 /* End Layanan-table */
 
 /* Start Form */
-input [type="text"],
-input [type="emai"],
-textarea {
-    font-size: 14px;
-    padding: 10px;
-}
 
-input::placeholder,
-textarea::placeholder {
-    color: #999;
-    font-weight: 300;
-}
-
-input[type="submit"],
-.button {
-    background-color: antiquewhite;
-    background-image: linear-gradient(-180deg,#fafbfc 0%,#eff36e 90%);
-    border: 1px solid rgba(27, 31, 35, 0.2);
-    border-radius: 4px;
-    color: #000000 !important;
-    font-size: 12px;
-    font-weight: bold;
-    margin: 5px 0;
-    padding: 5px 10px;
-    text-decoration: none !important;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-
-}
 /* End Form */
 
 /* Start Kontact form */
@@ -823,14 +797,22 @@ input[type="submit"],
 
 }
 /* End Kontak Form */
-
+.container-tanya {
+  text-align: left;
+  margin: 0px auto;
+  overflow: auto;
+  width: 85%;
+  background-color: #F0DFB6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .container-img {
   text-align: center;
   margin: 0px auto;
   overflow: auto;
-  width: 95%;
-  background-color: #F7F1E1;
+  width: 85%;
+  background-color: #F0DFB6;
   padding-top: 30px;
   padding-bottom: 30px;
     
@@ -898,9 +880,7 @@ input[type="submit"],
 .testimonial {
   height: 300%;
   width: 100%;
-  border-left: 4px solid #DEDCBA;
-    margin-left: 0px;
-
+  margin-left: 0px;
 }
 
 .testimonial-background {
@@ -963,7 +943,6 @@ p {
 h1 {
   text-align:center; 
   color: rgb(12, 12, 12);
-  text-shadow: 1px 1px 0px #FFF;
   margin:50px 0px 0px 0px
 }
 
